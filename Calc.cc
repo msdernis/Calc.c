@@ -8,10 +8,10 @@ using namespace std;
 int process(char *inputline) {
 
 double num1, num2;
-char func;
+char func, func2;
 float solved;
- sscanf(inputline, "%lf %c %lf", &num1, &func, &num2, &func2);
-
+ sscanf(inputline, "%lf %c %lf %c", &num1, &func, &num2, &func2);
+//func2 is currently useless
 
  if (func == '+') {
   solved = num1 + num2;
